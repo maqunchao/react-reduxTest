@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 
 
 
-//1.1 创建接受旧的state和action, 生成新的state的函数
+//1.1 创建接受旧的state和action, 返回新的state的函数
 let reducers = (state, action) => {
   if (state === undefined) {
     return {n:0}
